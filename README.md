@@ -320,7 +320,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Yash Pinjarkar**
 - 📧 Email: yashpinjarkar2003@gmail.com
 - 🐙 GitHub: [@yashpinjarkar10](https://github.com/yashpinjarkar10)
-- 🔗 LinkedIn: [Connect with me](https://linkedin.com/in/yashpinjarkar)
+- 🔗 LinkedIn: [Connect with me](https://www.linkedin.com/in/yash-pinjarkar)
 
 ---
 
