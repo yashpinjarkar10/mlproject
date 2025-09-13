@@ -1,3 +1,15 @@
+---
+title: Student Performance Predictor
+emoji: 🎓
+colorFrom: blue
+colorTo: purple
+sdk: docker
+sdk_version: "latest"
+app_file: app.py
+pinned: false
+license: mit
+---
+
 # 🎓 Student Performance Prediction System
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)

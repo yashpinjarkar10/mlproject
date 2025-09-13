@@ -1,5 +1,15 @@
 import sys
-from src.logger import logging
+import logging
+
+# Try to import custom logger, fallback to basic logging if it fails
+try:
+    from src.logger import logging
+except Exception:
+    # Fallback to basic logging configuration
+    logging.basicConfig(
+        format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
+        level=logging.INFO,
+    )
 
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb=error_detail.exc_info()

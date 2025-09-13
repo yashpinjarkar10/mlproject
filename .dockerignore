@@ -1,0 +1,64 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Documentation
+*.md
+!README.md
+
+# Logs (they will be created in container)
+logs/
+*.log
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Model artifacts that will be recreated
+# (Remove these lines if you want to include pre-trained models)
+# artifacts/*.pkl
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Docker files
+.dockerignore
+Dockerfile*

@@ -42,6 +42,9 @@ def predict_datapoint():
     
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0", debug=True)        
+    # Use port 7860 for Hugging Face Spaces, fallback to 5000 for local development
+    import os
+    port = int(os.environ.get("PORT", 7860))
+    app.run(host="0.0.0.0", port=port, debug=False)        
 
 
